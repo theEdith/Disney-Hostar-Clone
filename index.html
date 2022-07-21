@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Disney+ Hotstar</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+        </style>/
+</head>
+<body>
+    <nav class="navbar">
+        <a href="#">
+        <img class="brand-logo" src="./images/brand-logo.png" alt="logo">
+        </a>
+        <ul class="nav-links">
+            <li class="nav-items"><a href="#">TV</a></li>
+            <li class="nav-items"><a href="#">Movies</a></li>
+            <li class="nav-items"><a href="#">Sports</a></li>
+            <li class="nav-items"><a href="#">Premium</a></li>
+        </ul>
+
+        <div class="right-container">
+            <input type="text" class="search-box" placeholder="search">
+            <a href="#">
+            <button class="sub-btn">Subscribe</button>
+            </a>
+            <a href="#" class="login-link">Login</a>
+        </div>
+    </nav>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <!-- <div class="slider">
+                <div class="slide-content">
+                    <h1 class="movie-title">Loki</h1>
+                    <p class="movie-des">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit deserunt iste natus. Ipsum ipsa laboriosam eligendi fugiat quam, fugit sit sequi deserunt voluptates, veritatis repellat vel odit necessitatibus similique? Optio?</p>
+                </div>
+                <img src="./images/loki.jpg" alt="loki">
+            </div> -->
+        </div>
+    </div>
+
+    <div class="video-card-container">
+        <div class="video-card">
+            <img src="./images/disney.png" class="video-card-image" alt="">
+            <video src="./images/disney.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/marvel.png" class="video-card-image" alt="">
+            <video src="./images/marvel.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/pixar.png" class="video-card-image" alt="">
+            <video src="./images/pixar.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/star-wars.png" class="video-card-image" alt="">
+            <video src="./images/star-war.mp4" mute loop class="card-video"></video>
+        </div>
+        <div class="video-card">
+            <img src="./images/geographic.png" class="video-card-image" alt="">
+            <video src="./images/geographic.mp4" mute loop class="card-video"></video>
+        </div>  
+    </div>
+
+    <h1 class="title">recommended for you</h1>
+    <div class="movies-list">
+        <div class="card-container">
+            <div class="card" >  
+                <img class="card-image" src="https://wallpaperaccess.com/full/2563671.jpg" alt="Stranger Things" >
+                <div class="card-body">
+                    <a href="https://youtu.be/yQEondeGvKo" target="_blank">
+                    <h2 class="name">Stranger Things</h2>
+                    <h6 class="des">American science fiction horror drama television series</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </a>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpaperaccess.com/full/1982531.jpg" alt="Elite">
+                <div class="card-body">
+                    <h2 class="name">Elite</h2>
+                    <h6 class="des">How a clash between the students leads to murder</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://i.pinimg.com/originals/9b/a4/ab/9ba4abcd1383df5674d31aa392d1be79.jpg" alt="Altered Carbon">
+                <div class="card-body">
+                    <h2 class="name">Altered Carbon>
+                    <h6 class="des"> American cyberpunk television series</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://w0.peakpx.com/wallpaper/383/532/HD-wallpaper-squid-game-squid-games-thumbnail.jpg" alt="Squid Game">
+                <div class="card-body">
+                    <h2 class="name">Squid Game</h2>
+                    <h6 class="des">Contestants accept an invitation to compete in children's games</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://c4.wallpaperflare.com/wallpaper/20/302/482/tv-show-friends-chandler-bing-courteney-cox-wallpaper-preview.jpg" alt="Friends">
+                <div class="card-body">
+                    <h2 class="name">F.R.I.E.N.D.S</h2>
+                    <h6 class="des">An American television sitcom by David Crane and Marta Kauffman</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://wallpapercave.com/dwp1x/wp6581266.jpg" alt="Money Heist">
+                <div class="card-body">
+                    <h2 class="name">Money Heist</h2>
+                    <h6 class="des">"The Professor" has a plan to pull off the biggest heist</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.androidauthority.com/wp-content/uploads/2020/05/Gifted-screengrab-Best-Movies-On-Hotstar-1200x675.jpg.webp" alt="Gifted">
+                <div class="card-body">
+                    <h2 class="name">Gifted</h2>
+                    <h6 class="des">American drama starring Chris Evans and Mckenna Grace</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.androidauthority.com/wp-content/uploads/2020/05/Bad-Education-Best-Movies-Hotstar.jpeg.webp" alt="Bad Education">
+                <div class="card-body">
+                    <h2 class="name">Bad Education</h2>
+                    <h6 class="des">Story about most prominent school embezzlement cases</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.androidauthority.com/wp-content/uploads/2020/05/The-Art-Of-Racing-In-The-Rain-Best-Movies-On-Hotstar-1200x675.jpg.webp" alt="The Art of Racing in the Rain">
+                <div class="card-body">
+                    <h2 class="name">The Art of Racing in the Rain</h2>
+                    <h6 class="des">Golden Retriever called Enzo dog </h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div><div class="card">
+                <img class="card-image" src="https://www.androidauthority.com/wp-content/uploads/2020/05/The-Shape-Of-Water-Best-Movies-On-Hotstar-1200x675.jpg.webp" alt="The Shape of Water">
+                <div class="card-body">
+                    <h2 class="name">The Shape of Water</h2>
+                    <h6 class="des">American supernatural romance movie </h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>  
+    </div>
+
+    <h1 class="title">New Releases</h1>
+    <div class="movies-list">
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/Sneakerella-440x570.jpeg" alt="Sneakerella">
+                <div class="card-body">
+                    <h2 class="name">Sneakerella</h2>
+                    <h6 class="des">Contemporary take on Cinderella’s fairy tale</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/Home-Shanti2-440x570.jpeg" alt="Home-Shanti">
+                <div class="card-body">
+                    <h2 class="name">Home Shanti/h2>
+                    <h6 class="des">Sarla Joshi fascinating story</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/Obi-Wan-Kenobi--440x570.jpeg" alt="OBI-WAN KENOBI">
+                <div class="card-body">
+                    <h2 class="name">OBI-WAN KENOBI</h2>
+                    <h6 class="des">the Iconic role of Jedi Master Obi-Wan Kenobi</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/Chip-%E2%80%98n-Dale-Rescue-Rangers-440x570.jpeg" alt="CHIP ‘N DALE: RESCUE RANGERS">
+                <div class="card-body">
+                    <h2 class="name">CHIP ‘N DALE: RESCUE RANGERS</h2>
+                    <h6 class="des">It’s time to rejoice as the duo returns</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/The-Quest-440x570.jpeg" alt="The Quest">
+                <div class="card-body">
+                    <h2 class="name">The Quest</h2>
+                    <h6 class="des">Drops eight real-life teenagers into the fantastic world</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/Escaype-Live-440x570.jpeg" alt="ESCAYPE LIVE">
+                <div class="card-body">
+                    <h2 class="name">ESCAYPE LIVE</h2>
+                    <h6 class="des">Series revolves around common Indian people</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/The-Time-Traveller%E2%80%99s-Wife-440x570.jpeg" alt="THE TIME TRAVELLER’S WIFE">
+                <div class="card-body">
+                    <h2 class="name">THE TIME TRAVELLER’S WIFE</h2>
+                    <h6 class="des">Shows a couple’s relationship</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://media.gqindia.com/wp-content/uploads/2022/05/Candy--440x570.jpeg" alt="Candy">
+                <div class="card-body">
+                    <h2 class="name">Candy</h2>
+                    <h6 class="des">The series is based on a true story</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.themobileindian.com/wp-content/uploads/2021/07/Shehulk-1068x601.png" alt="She Hulk">
+                <div class="card-body">
+                    <h2 class="name">She Hulk</h2>
+                    <h6 class="des">She-Hulk is an upcoming series from Marvel Studios</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div><div class="card">
+                <img class="card-image" src="https://www.themobileindian.com/wp-content/uploads/2021/07/Disenchanted--1068x601.png" alt="Disenchanted">
+                <div class="card-body">
+                    <h2 class="name">Disenchanted</h2>
+                    <h6 class="des">Disenchanted is the sequel to the 2007 movie enchanted</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>   
+    </div>
+    <h1 class="title">Popular Releases</h1>
+    <div class="movies-list">
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/9317/1269317-v-c851767a526b" alt="Ms Marvel">
+                <div class="card-body">
+                    <h2 class="name">Ms Marvel</h2>
+                    <h6 class="des">Kamala Khan discover that she herself might have superpowers.</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_1_5x/sources/r1/cms/prod/9948/1279948-v-cc9471178e40" alt="Multiverse of Madness">
+                <div class="card-body">
+                    <h2 class="name">Dr Strange 2</h2>
+                    <h6 class="des">Strange help new allies in order to confront a surprising adversary</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3851/1303851-v-ec0adbdcae89" alt="Shoorveer">
+                <div class="card-body">
+                    <h2 class="name">Shoorveer</h2>
+                    <h6 class="des">Action thrilling movie</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6837/1286837-v-32fd6c6b4461" alt="The Princess">
+                <div class="card-body">
+                    <h2 class="name">The Princess</h2>
+                    <h6 class="des">Story of bravery of Princess</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6752/1286752-v-0899dc5f8517" alt="Only Murders in the building">
+                <div class="card-body">
+                    <h2 class="name">Only Murders in the building</h2>
+                    <h6 class="des">Comedy,Crime World</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/2445/1202445-v-25736a852683" alt="Master Chef Australia">
+                <div class="card-body">
+                    <h2 class="name">Master Chef Australia</h2>
+                    <h6 class="des">About the chefs of Australia</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4128/1304128-v-14ab5e86d8c7" alt="Aashiqana">
+                <div class="card-body">
+                    <h2 class="name">Aashiqana</h2>
+                    <h6 class="des">Romantic, thriller, dramatic</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/6253/1296253-v-3a1a10046b46" alt="Vikram">
+                <div class="card-body">
+                    <h2 class="name">Vikram</h2>
+                    <h6 class="des">Malyalam, thriller</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/4331/1304331-v-2921fb041c06" alt="Vadiya">
+                <div class="card-body">
+                    <h2 class="name">Vadiya</h2>
+                    <h6 class="des">Indian Drama, Hindi</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div><div class="card">
+                <img class="card-image" src="https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_3x/sources/r1/cms/prod/3686/1303686-v-6386e5468e6b" alt="Rehearsal">
+                <div class="card-body">
+                    <h2 class="name">Rehearsal</h2>
+                    <h6 class="des">Comedy, HBO Originals</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>   
+    </div>    
+    <h1 class="title">Hindi Movies</h1>
+    <div class="movies-list">
+        <div class="card-container">
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Chhichhore-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Chhichhore">
+                <div class="card-body">
+                    <h2 class="name">Chhichhore</h2>
+                    <h6 class="des"> Indian Hindi-language comedy-drama film</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Bhaag-Milkha-Bhaag-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Bhaag-Milkha-Bhaag">
+                <div class="card-body">
+                    <h2 class="name">Bhaag Milkha Bhaag</h2>
+                    <h6 class="des">The struggles of the great sprint champion</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Drishyam-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Drishyam">
+                <div class="card-body">
+                    <h2 class="name">Drishyam</h2>
+                    <h6 class="des">Drishyam is a mystery drama</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Masaan-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Masaan">
+                <div class="card-body">
+                    <h2 class="name">Masaan</h2>
+                    <h6 class="des">The first directorial venture of Neeraj Ghaywan</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Pink-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Pink">
+                <div class="card-body">
+                    <h2 class="name">Pink</h2>
+                    <h6 class="des">Crime thriller directed by Aniruddha Roy Chowdhury</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Baby-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Baby">
+                <div class="card-body">
+                    <h2 class="name">Baby</h2>
+                    <h6 class="des">Movie shows how spies risk their lives to save the nation</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Badhaai-Ho-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Badhaai Do">
+                <div class="card-body">
+                    <h2 class="name">Badhaai Do</h2>
+                    <h6 class="des">Movie showcases the changing trend in Bollywood</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Super-30-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Super-30">
+                <div class="card-body">
+                    <h2 class="name">Super-30</h2>
+                    <h6 class="des">Struggles and triumphs of the life of Anand Kumar</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+            <div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/My-Name-is-Khan-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="My Name is Khan">
+                <div class="card-body">
+                    <h2 class="name">My Name is Khan</h2>
+                    <h6 class="des">Romantic movie set in the backdrop of the 9/11 attack</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div><div class="card">
+                <img class="card-image" src="https://www.91-cdn.com/hub/wp-content/uploads/2021/06/Sanju-top-hotstar-movies-Hindi.jpg?tr=q-100" alt="Sanju">
+                <div class="card-body">
+                    <h2 class="name">Sanju</h2>
+                    <h6 class="des">Biopic of actor Sanjay Dutt,</h6>
+                    <button class="watchlist-btn">add to watchlist</button>
+                </div>
+            </div>
+        </div>   
+    </div>
+
+    <script src="index.js" async></script>
+</body>
+</html>
+
